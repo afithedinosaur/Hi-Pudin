@@ -74,23 +74,21 @@ ul{
     margin-left:20px;
 }
 
-/* --- UPDATED HYPERLINK STYLES --- */
 a{
     color:blue;
-    text-decoration:underline; /* Underlined by default */
+    text-decoration:underline; 
 }
 
 a:hover{
-    text-decoration:overline;  /* Overline when cursor is placed on it */
+    text-decoration:overline; 
     color:darkblue; 
     font-size:18px;
     transition:0.3s;
 }
 
 a:active{
-    color:darkblue;            /* Kept clean to avoid conflicting with hover overline */
+    color:darkblue;     
 }
-/* -------------------------------- */
 
 .gambar{
     position:relative;
